@@ -1,0 +1,33 @@
+**********************
+PowerShell transcript start
+Start time: 20260823184522
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\110a328ea5\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 9428
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\LM1\resourcegroup-transcript.txt
+
+ResourceGroupName : test3
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/test3
+
+Resource group created successfully.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260823184525
+**********************
