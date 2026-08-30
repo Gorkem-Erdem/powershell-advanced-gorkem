@@ -31,3 +31,506 @@ Script execution finished.
 PowerShell transcript end
 End time: 20260823184525
 **********************
+**********************
+PowerShell transcript start
+Start time: 20260830172615
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\110a328ea5\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 3420
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\LM1\resourcegroup-transcript.txt
+VERBOSE: Populating RepositorySourceLocation property for module Az.
+VERBOSE: 5:26:25 PM - Created resource group 'TESTT' in location 'centralus'
+
+ResourceGroupName : TESTT
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/TESTT
+
+Resource group created successfully.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260830172625
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260830172659
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\110a328ea5\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 3420
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\LM1\resourcegroup-transcript.txt
+DEBUG: 5:26:59 PM - [ConfigManager] Got nothing from [DisplaySecretsWarning], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:26:59 PM - NewAzureResourceGroupCmdlet begin processing with ParameterSet '__AllParameterSets'.
+DEBUG: 5:26:59 PM - using account id '25296305@nwtc.edu'...
+DEBUG: 5:26:59 PM - [ConfigManager] Got nothing from [DisplayBreakingChangeWarning], Module = [Az.Resources], Cmdlet = [New-AzResourceGroup]. Returning default value [True].
+DEBUG: [Common.Authentication]: Authenticating using Account: '25296305@nwtc.edu', environment: 'AzureCloud', tenant: 'f2e9758a-2981-42c1-8ba7-c9a15fbad9ab'
+DEBUG: 5:26:59 PM - [ConfigManager] Got nothing from [DisableInstanceDiscovery], Module = [], Cmdlet = []. Returning default value [False].
+DEBUG: 5:26:59 PM - [ConfigManager] Got nothing from [EnableLoginByWam], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:26:59 PM - [SilentAuthenticator] Calling SharedTokenCacheCredential.GetTokenAsync - TenantId:'f2e9758a-2981-42c1-8ba7-c9a15fbad9ab', Scopes:'https://management.core.windows.net//.default', AuthorityHost:'https://login.microsoftonline.com/', UserId:'25296305@nwtc.edu'
+DEBUG: SharedTokenCacheCredential.GetToken invoked. Scopes: [ https://management.core.windows.net//.default ] ParentRequestId:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] ==== GetAccounts started - GetAccounts ====
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] Account id filter: False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [Internal cache] Clearing user token cache accessor.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [Internal cache] Total number of cache partitions found while getting refresh tokens: 0. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [Internal cache] Total number of cache partitions found while getting accounts: 1. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] IsLegacyAdalCacheEnabled: yes
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] IsLegacyAdalCacheEnabled: yes
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 25e2f4cd-c217-4862-a4e8-2e0c840c3b62] IsLegacyAdalCacheEnabled: yes
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [Runtime] Broker supported OS.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [RuntimeBroker] ListWindowsWorkAndSchoolAccounts option was not enabled.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 8eece3ee-0a05-4d06-ab28-8a9bf8c15558] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] Found 1 cache accounts and 0 broker accounts
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] Returning 1 accounts
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] MSAL MSAL.CoreCLR with assembly version '4.84.0.0'. CorrelationId(55322c1c-b3e6-412f-9934-cefcc09f3f6b)
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] === AcquireTokenSilent Parameters ===
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] LoginHint provided: False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Account provided: True
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] ForceRefresh: False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] 
+=== Request Data ===
+Authority Provided? - True
+Scopes - https://management.core.windows.net//.default
+Extra Query Params Keys (space separated) - 
+ApiId - AcquireTokenSilent
+IsConfidentialClient - False
+SendX5C - False
+LoginHint ? False
+IsBrokerConfigured - True
+HomeAccountId - False
+CorrelationId - 55322c1c-b3e6-412f-9934-cefcc09f3f6b
+UserAssertion set: False
+LongRunningOboCacheKey set: False
+Region configured: 
+FMI Path: 
+Credential FMI Path:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] === Token Acquisition (SilentRequest) started:
+	 Scopes: https://management.core.windows.net//.default
+	Authority Host: login.microsoftonline.com
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Broker is configured and enabled, attempting to use broker instead.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [Runtime] Broker supported OS.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Can invoke broker. Will attempt to acquire token with broker.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0001]	INFO   	SetAuthorityUri:78	Initializing authority from URI 'https://login.microsoftonline.com/f2e9758a-2981-42c1-8ba7-c9a15fbad9ab/' without authority type, defaulting to MsSts
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:478	Printing Telemetry for Correlation ID: 55322c1c-b3e6-412f-9934-cefcc09f3f6b
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: start_time, Value: 2026-08-30T17:26:59.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: api_name, Value: ReadAccountById
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: was_request_throttled, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: authority_type, Value: Unknown
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: msal_version, Value: 10.0.0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: correlation_id, Value: 55322c1c-b3e6-412f-9934-cefcc09f3f6b
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: broker_app_used, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: stop_time, Value: 2026-08-30T17:26:59.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: msalruntime_version, Value: 0.20.4
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: is_successful, Value: true
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:486	Key: request_duration, Value: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:491	Printing Execution Flow:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	LogTelemetryData:499	{"t":"4c10b","tid":4,"ts":0,"l":2},{"t":"4c10a","tid":4,"ts":0,"l":2}
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	SetCorrelationId:239	Set correlation ID: 55322c1c-b3e6-412f-9934-cefcc09f3f6b
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	EnqueueBackgroundRequest:1245	The original authority is 'https://login.microsoftonline.com/f2e9758a-2981-42c1-8ba7-c9a15fbad9ab'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	ModifyAndValidateAuthParameters:228	Additional query parameter added successfully. Key: '(pii)' Value: '(pii)'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	ModifyAndValidateAuthParameters:228	Additional query parameter added successfully. Key: '(pii)' Value: '(pii)'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	ModifyAndValidateAuthParameters:228	Additional query parameter added successfully. Key: '(pii)' Value: '(pii)'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	INFO   	ModifyAndValidateAuthParameters:251	Authority Realm: f2e9758a-2981-42c1-8ba7-c9a15fbad9ab
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0004]	WARNING	TryEnqueueMsaDeviceCredentialAcquisitionAndContinue:1296	MsaDeviceOperationProvider is not available. Not attempting to register the device.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0003]	INFO   	TryUseStorage:143	Try to read account from universal storage.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:26:59Z] [MSAL:0003]	INFO   	StorageTokenResponse:84	StorageTokenResponse account constructor invoked. This is only expected in Runtime flows
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:478	Printing Telemetry for Correlation ID: 55322c1c-b3e6-412f-9934-cefcc09f3f6b
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: start_time, Value: 2026-08-30T17:26:59.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: api_name, Value: AcquireTokenSilently
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: was_request_throttled, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: authority_type, Value: AAD
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: access_token_expiry_time, Value: 2026-08-30T18:54:09.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: read_token, Value: ID|AT
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: msal_version, Value: 10.0.0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: client_id, Value: 1950a258-227b-4e31-a9cf-717495945fc2
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: correlation_id, Value: 55322c1c-b3e6-412f-9934-cefcc09f3f6b
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: broker_app_used, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: stop_time, Value: 2026-08-30T17:27:00.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: msalruntime_version, Value: 0.20.4
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: original_authority, Value: https://login.microsoftonline.com/f2e9758a-2981-42c1-8ba7-c9a15fbad9ab
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: additional_query_parameters_count, Value: 3
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: storage_read, Value: DAC|DAT|DID
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: auth_flow, Value: AT
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: is_successful, Value: true
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: authorization_type, Value: WindowsIntegratedAuth
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: request_duration, Value: 35
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:491	Printing Execution Flow:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [MSAL:0003]	INFO   	LogTelemetryData:499	{"t":"4s7uc","tid":4,"ts":0,"l":2},{"t":"4sufd","tid":4,"ts":0,"s":2,"l":2},{"t":"4swgg","tid":4,"ts":0,"s":2,"l":2},{"t":"4swgf","tid":4,"ts":0,"s":1,"l":2},{"t":"4swgi","tid":3,"ts":1,"s":2,"l":2},{"t":"8b2yn","tid":3,"ts":1,"l":2},{"t":"8dqkx","tid":3,"ts":1,"l":2},{"t":"8dqik","tid":3,"ts":1,"l":2},{"t":"4q2di","tid":3,"ts":1,"l":2},{"t":"4qnng","tid":3,"ts":1,"l":2,"a":2,"ie":0},{"t":"4qnnf","tid":3,"ts":2,"l":2,"a":2,"ie":1},{"t":"8dqit","tid":3,"ts":2,"l":2},{"t":"8b2ht","tid":3,"ts":2,"l":2},{"t":"4qnno","tid":3,"ts":2,"l":2,"a":2,"ie":0},{"t":"4qnnn","tid":3,"ts":35,"l":2,"a":2,"ie":1},{"t":"6xuag","tid":3,"ts":35,"l":2},{"t":"4c10b","tid":3,"ts":36,"l":2},{"t":"4c10a","tid":3,"ts":36,"l":2}
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [RuntimeBroker] WAM response status success
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Checking MsalTokenResponse returned from broker.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Success. Response contains an access token.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Checking client info returned from the server..
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Saving token response to cache..
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] [Instance Discovery] Instance discovery is enabled and will be performed
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [Internal cache] Clearing user token cache accessor.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] [SaveTokenResponseAsync] Saving Id Token and Account in cache ...
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [Internal cache] Total number of cache partitions found while getting refresh tokens: 0. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [Internal cache] Total number of cache partitions found while getting access tokens: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] [CalculateSuggestedCacheExpiry] No access tokens or refresh tokens found in the accessor. Not returning any expiration.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [Internal cache] Total number of cache partitions found while getting access tokens: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [Internal cache] Total number of cache partitions found while getting refresh tokens: 0. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z] [Internal cache] Total number of cache partitions found while getting accounts: 1. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] 
+	=== Token Acquisition finished successfully:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b]  AT expiration time: 8/30/2026 6:54:08 PM +00:00, scopes: https://management.core.windows.net//.default https://management.core.windows.net//user_impersonation. source: Broker
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] Fetched access token from host login.microsoftonline.com.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] 
+[LogMetricsFromAuthResult] Cache Refresh Reason: NotApplicable
+[LogMetricsFromAuthResult] DurationInCacheInMs: 1
+[LogMetricsFromAuthResult] DurationTotalInMs: 59
+[LogMetricsFromAuthResult] DurationInHttpInMs: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:27:00Z - 55322c1c-b3e6-412f-9934-cefcc09f3f6b] TokenEndpoint: ****
+DEBUG: SharedTokenCacheCredential.GetToken succeeded. Scopes: [ https://management.core.windows.net//.default ] ParentRequestId:  ExpiresOn: 2026-08-30T18:54:08.0057684+00:00
+DEBUG: [Common.Authentication]: Received token with LoginType 'User', Tenant: 'f2e9758a-2981-42c1-8ba7-c9a15fbad9ab', UserId: '25296305@nwtc.edu'
+DEBUG: ============================ HTTP REQUEST ============================
+
+HTTP Method:
+HEAD
+
+Absolute Uri:
+https://management.azure.com/subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourcegroups/tesst?api-version=2021-04-01
+
+Headers:
+Accept-Language               : en-US
+x-ms-client-request-id        : fb0b3d53-1414-4e00-b0d3-ea05a50c08db
+
+Body:
+DEBUG: [AcquirePolicyTokenHandler] Intercept HEAD https://management.azure.com/subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourcegroups/tesst?api-version=2021-04-01
+DEBUG: [AcquirePolicyTokenHandler] Skip: verb not allowed for token acquisition.
+DEBUG: ============================ HTTP RESPONSE ============================
+
+Status Code:
+NotFound
+
+Headers:
+Cache-Control                 : no-cache
+Pragma                        : no-cache
+x-ms-failure-cause            : gateway
+x-ms-ratelimit-remaining-subscription-reads: 249
+x-ms-ratelimit-remaining-subscription-global-reads: 3749
+x-ms-request-id               : 0521e72f-fc69-4a9c-9e4f-d2b3ff8932fb
+x-ms-correlation-request-id   : 0521e72f-fc69-4a9c-9e4f-d2b3ff8932fb
+x-ms-routing-request-id       : CENTRALUS:20260830T172700Z:0521e72f-fc69-4a9c-9e4f-d2b3ff8932fb
+Strict-Transport-Security     : max-age=31536000; includeSubDomains
+X-Content-Type-Options        : nosniff
+X-Cache                       : CONFIG_NOCACHE
+X-MSEdge-Ref                  : Ref A: 2818EEF402BD439280B94E9525FF762E Ref B: DM2AA1091211035 Ref C: 2026-08-30T17:27:00Z
+Date                          : Sun, 30 Aug 2026 17:27:00 GMT
+
+Body:
+DEBUG: ============================ HTTP REQUEST ============================
+
+HTTP Method:
+PUT
+
+Absolute Uri:
+https://management.azure.com/subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourcegroups/tesst?api-version=2021-04-01
+
+Headers:
+Accept-Language               : en-US
+x-ms-client-request-id        : fb0b3d53-1414-4e00-b0d3-ea05a50c08db
+
+Body:
+{
+  "location": "centralus"
+}
+DEBUG: [AcquirePolicyTokenHandler] Intercept PUT https://management.azure.com/subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourcegroups/tesst?api-version=2021-04-01
+DEBUG: [AcquirePolicyTokenHandler] Skip: user did not request token (no -AcquirePolicyToken).
+DEBUG: ============================ HTTP RESPONSE ============================
+
+Status Code:
+Created
+
+Headers:
+Cache-Control                 : no-cache
+Pragma                        : no-cache
+x-ms-ratelimit-remaining-subscription-writes: 199
+x-ms-ratelimit-remaining-subscription-global-writes: 2999
+x-ms-request-id               : 7bd683c5-76af-4d24-a20f-e120d958d964
+x-ms-correlation-request-id   : 7bd683c5-76af-4d24-a20f-e120d958d964
+x-ms-routing-request-id       : CENTRALUS:20260830T172703Z:7bd683c5-76af-4d24-a20f-e120d958d964
+Strict-Transport-Security     : max-age=31536000; includeSubDomains
+X-Content-Type-Options        : nosniff
+X-Cache                       : CONFIG_NOCACHE
+X-MSEdge-Ref                  : Ref A: F17F8A100C204FECAFCBCD5A4CE3E886 Ref B: DM2AA1091211035 Ref C: 2026-08-30T17:27:00Z
+Date                          : Sun, 30 Aug 2026 17:27:02 GMT
+
+Body:
+{
+  "id": "/subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/tesst",
+  "name": "tesst",
+  "type": "Microsoft.Resources/resourceGroups",
+  "location": "centralus",
+  "properties": {
+    "provisioningState": "Succeeded"
+  }
+}
+DEBUG: 5:27:03 PM - [ConfigManager] Got nothing from [DisplaySecretsWarning], Module = [], Cmdlet = []. Returning default value [True].
+
+ResourceGroupName : tesst
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/tesst
+
+DEBUG: 5:27:03 PM - [ConfigManager] Got nothing from [DisplayRegionIdentified], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:27:03 PM - [ConfigManager] Got nothing from [CheckForUpgrade], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:27:03 PM - No authentication telemetry is found for the current cmdlet with Id fb0b3d53-1414-4e00-b0d3-ea05a50c08db.
+DEBUG: AzureQoSEvent:  Module: Az.Resources:10.1.0; CommandName: New-AzResourceGroup; PSVersion: 7.6.5; IsSuccess: True; Duration: 00:00:03.4556735; SanitizeDuration: 00:00:00.0001394
+DEBUG: 5:27:03 PM - [ConfigManager] Got nothing from [EnableDataCollection], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:27:03 PM - NewAzureResourceGroupCmdlet end processing.
+Resource group created successfully.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260830172703
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260830172924
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\110a328ea5\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 3420
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\LM1\resourcegroup-transcript.txt
+VERBOSE: Step 1: Starting the script.
+VERBOSE: Step 2: Creating the resource group.
+PS>TerminatingError(New-AzResourceGroup): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: 'resourceGroupName' does not match expected pattern '^[-\w\._\(\)]+$'."
+The resource group could not be created.
+'resourceGroupName' does not match expected pattern '^[-\w\._\(\)]+$'.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260830172924
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260830172950
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\110a328ea5\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 3420
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\LM1\resourcegroup-transcript.txt
+DEBUG: Resource group name: New RG
+DEBUG: Location: centralus
+DEBUG: 5:29:50 PM - [ConfigManager] Got nothing from [DisplaySecretsWarning], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:29:50 PM - NewAzureResourceGroupCmdlet begin processing with ParameterSet '__AllParameterSets'.
+DEBUG: 5:29:50 PM - using account id '25296305@nwtc.edu'...
+DEBUG: 5:29:50 PM - [ConfigManager] Got nothing from [DisplayBreakingChangeWarning], Module = [Az.Resources], Cmdlet = [New-AzResourceGroup]. Returning default value [True].
+DEBUG: [Common.Authentication]: Authenticating using Account: '25296305@nwtc.edu', environment: 'AzureCloud', tenant: 'f2e9758a-2981-42c1-8ba7-c9a15fbad9ab'
+DEBUG: 5:29:50 PM - [ConfigManager] Got nothing from [DisableInstanceDiscovery], Module = [], Cmdlet = []. Returning default value [False].
+DEBUG: 5:29:50 PM - [ConfigManager] Got nothing from [EnableLoginByWam], Module = [], Cmdlet = []. Returning default value [True].
+DEBUG: 5:29:50 PM - [SilentAuthenticator] Calling SharedTokenCacheCredential.GetTokenAsync - TenantId:'f2e9758a-2981-42c1-8ba7-c9a15fbad9ab', Scopes:'https://management.core.windows.net//.default', AuthorityHost:'https://login.microsoftonline.com/', UserId:'25296305@nwtc.edu'
+DEBUG: SharedTokenCacheCredential.GetToken invoked. Scopes: [ https://management.core.windows.net//.default ] ParentRequestId:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] ==== GetAccounts started - GetAccounts ====
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] Account id filter: False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Clearing user token cache accessor.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting refresh tokens: 0. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting accounts: 1. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] IsLegacyAdalCacheEnabled: yes
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] IsLegacyAdalCacheEnabled: yes
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - d6bb5916-a5b7-4cf7-9146-7e576ccacc4a] IsLegacyAdalCacheEnabled: yes
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Runtime] Broker supported OS.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [RuntimeBroker] ListWindowsWorkAndSchoolAccounts option was not enabled.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - a7eee04a-0d6f-44ba-b7a5-d45d5c05f355] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] Found 1 cache accounts and 0 broker accounts
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] Returning 1 accounts
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] MSAL MSAL.CoreCLR with assembly version '4.84.0.0'. CorrelationId(15b45a21-28f6-462b-9c1f-39bd580aa475)
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] === AcquireTokenSilent Parameters ===
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] LoginHint provided: False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Account provided: True
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] ForceRefresh: False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] 
+=== Request Data ===
+Authority Provided? - True
+Scopes - https://management.core.windows.net//.default
+Extra Query Params Keys (space separated) - 
+ApiId - AcquireTokenSilent
+IsConfidentialClient - False
+SendX5C - False
+LoginHint ? False
+IsBrokerConfigured - True
+HomeAccountId - False
+CorrelationId - 15b45a21-28f6-462b-9c1f-39bd580aa475
+UserAssertion set: False
+LongRunningOboCacheKey set: False
+Region configured: 
+FMI Path: 
+Credential FMI Path:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] === Token Acquisition (SilentRequest) started:
+	 Scopes: https://management.core.windows.net//.default
+	Authority Host: login.microsoftonline.com
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Broker is configured and enabled, attempting to use broker instead.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Runtime] Broker supported OS.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Can invoke broker. Will attempt to acquire token with broker.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0001]	INFO   	SetAuthorityUri:78	Initializing authority from URI 'https://login.microsoftonline.com/f2e9758a-2981-42c1-8ba7-c9a15fbad9ab/' without authority type, defaulting to MsSts
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:478	Printing Telemetry for Correlation ID: 15b45a21-28f6-462b-9c1f-39bd580aa475
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: start_time, Value: 2026-08-30T17:29:50.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: api_name, Value: ReadAccountById
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: was_request_throttled, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: authority_type, Value: Unknown
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: msal_version, Value: 10.0.0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: correlation_id, Value: 15b45a21-28f6-462b-9c1f-39bd580aa475
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: broker_app_used, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: stop_time, Value: 2026-08-30T17:29:50.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: msalruntime_version, Value: 0.20.4
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: is_successful, Value: true
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:486	Key: request_duration, Value: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:491	Printing Execution Flow:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	LogTelemetryData:499	{"t":"4c10b","tid":6,"ts":0,"l":2},{"t":"4c10a","tid":6,"ts":0,"l":2}
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	SetCorrelationId:239	Set correlation ID: 15b45a21-28f6-462b-9c1f-39bd580aa475
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	EnqueueBackgroundRequest:1245	The original authority is 'https://login.microsoftonline.com/f2e9758a-2981-42c1-8ba7-c9a15fbad9ab'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	ModifyAndValidateAuthParameters:228	Additional query parameter added successfully. Key: '(pii)' Value: '(pii)'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	ModifyAndValidateAuthParameters:228	Additional query parameter added successfully. Key: '(pii)' Value: '(pii)'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	ModifyAndValidateAuthParameters:228	Additional query parameter added successfully. Key: '(pii)' Value: '(pii)'
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	INFO   	ModifyAndValidateAuthParameters:251	Authority Realm: f2e9758a-2981-42c1-8ba7-c9a15fbad9ab
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0006]	WARNING	TryEnqueueMsaDeviceCredentialAcquisitionAndContinue:1296	MsaDeviceOperationProvider is not available. Not attempting to register the device.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	TryUseStorage:143	Try to read account from universal storage.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	StorageTokenResponse:84	StorageTokenResponse account constructor invoked. This is only expected in Runtime flows
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:478	Printing Telemetry for Correlation ID: 15b45a21-28f6-462b-9c1f-39bd580aa475
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: start_time, Value: 2026-08-30T17:29:50.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: api_name, Value: AcquireTokenSilently
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: was_request_throttled, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: authority_type, Value: AAD
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: access_token_expiry_time, Value: 2026-08-30T18:54:09.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: read_token, Value: ID|AT
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: msal_version, Value: 10.0.0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: client_id, Value: 1950a258-227b-4e31-a9cf-717495945fc2
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: correlation_id, Value: 15b45a21-28f6-462b-9c1f-39bd580aa475
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: broker_app_used, Value: false
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: stop_time, Value: 2026-08-30T17:29:50.000Z
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: msalruntime_version, Value: 0.20.4
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: original_authority, Value: https://login.microsoftonline.com/f2e9758a-2981-42c1-8ba7-c9a15fbad9ab
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: additional_query_parameters_count, Value: 3
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: storage_read, Value: DAC|DAT|DID
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: auth_flow, Value: AT
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: is_successful, Value: true
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: authorization_type, Value: WindowsIntegratedAuth
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:486	Key: request_duration, Value: 2
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:491	Printing Execution Flow:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [MSAL:0003]	INFO   	LogTelemetryData:499	{"t":"4s7uc","tid":6,"ts":0,"l":2},{"t":"4sufd","tid":6,"ts":0,"s":2,"l":2},{"t":"4swgg","tid":6,"ts":0,"s":4,"l":2},{"t":"4swgf","tid":6,"ts":0,"s":1,"l":2},{"t":"4swgi","tid":3,"ts":0,"s":4,"l":2},{"t":"8b2yn","tid":3,"ts":0,"l":2},{"t":"8dqkx","tid":3,"ts":0,"l":2},{"t":"8dqik","tid":3,"ts":0,"l":2},{"t":"4q2di","tid":3,"ts":0,"l":2},{"t":"4qnng","tid":3,"ts":0,"l":2,"a":2,"ie":0},{"t":"4qnnf","tid":3,"ts":1,"l":2,"a":2,"ie":1},{"t":"8dqit","tid":3,"ts":1,"l":2},{"t":"8b2ht","tid":3,"ts":1,"l":2},{"t":"4qnno","tid":3,"ts":1,"l":2,"a":2,"ie":0},{"t":"4qnnn","tid":3,"ts":2,"l":2,"a":2,"ie":1},{"t":"6xuag","tid":3,"ts":2,"l":2},{"t":"4c10b","tid":3,"ts":2,"l":2},{"t":"4c10a","tid":3,"ts":2,"l":2}
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [RuntimeBroker] WAM response status success
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Checking MsalTokenResponse returned from broker.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Success. Response contains an access token.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Checking client info returned from the server..
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Saving token response to cache..
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] [Instance Discovery] Instance discovery is enabled and will be performed
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] [Region discovery] Not using a regional authority.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Clearing user token cache accessor.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] [SaveTokenResponseAsync] Saving Id Token and Account in cache ...
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting refresh tokens: 0. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting access tokens: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] [CalculateSuggestedCacheExpiry] No access tokens or refresh tokens found in the accessor. Not returning any expiration.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting access tokens: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting refresh tokens: 0. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z] [Internal cache] Total number of cache partitions found while getting accounts: 1. PartitionKey  False
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] 
+	=== Token Acquisition finished successfully:
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475]  AT expiration time: 8/30/2026 6:54:08 PM +00:00, scopes: https://management.core.windows.net//.default https://management.core.windows.net//user_impersonation. source: Broker
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] Fetched access token from host login.microsoftonline.com.
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] 
+[LogMetricsFromAuthResult] Cache Refresh Reason: NotApplicable
+[LogMetricsFromAuthResult] DurationInCacheInMs: 1
+[LogMetricsFromAuthResult] DurationTotalInMs: 9
+[LogMetricsFromAuthResult] DurationInHttpInMs: 0
+DEBUG: False MSAL 4.84.0.0 MSAL.CoreCLR .NET 10.0.11 Microsoft Windows 10.0.26100 [2026-08-30 17:29:50Z - 15b45a21-28f6-462b-9c1f-39bd580aa475] TokenEndpoint: ****
+DEBUG: SharedTokenCacheCredential.GetToken succeeded. Scopes: [ https://management.core.windows.net//.default ] ParentRequestId:  ExpiresOn: 2026-08-30T18:54:08.7980454+00:00
+DEBUG: [Common.Authentication]: Received token with LoginType 'User', Tenant: 'f2e9758a-2981-42c1-8ba7-c9a15fbad9ab', UserId: '25296305@nwtc.edu'
+DEBUG: 5:29:50 PM - [ResourceManagerCmdletBase.ExecuteCmdlet] Caught unhandled exception: Microsoft.Rest.ValidationException: 'resourceGroupName' does not match expected pattern '^[-\w\._\(\)]+$'.
+   at Microsoft.Azure.Management.ResourceManager.ResourceGroupsOperations.CheckExistenceWithHttpMessagesAsync(String resourceGroupName, Dictionary`2 customHeaders, CancellationToken cancellationToken)
+   at Microsoft.Azure.Management.ResourceManager.ResourceGroupsOperationsExtensions.CheckExistenceAsync(IResourceGroupsOperations operations, String resourceGroupName, CancellationToken cancellationToken)
+   at Microsoft.Azure.Management.ResourceManager.ResourceGroupsOperationsExtensions.CheckExistence(IResourceGroupsOperations operations, String resourceGroupName)
+   at Microsoft.Azure.Commands.ResourceManager.Cmdlets.SdkClient.ResourceManagerSdkClient.CreatePSResourceGroup(PSCreateResourceGroupParameters parameters)
+   at Microsoft.Azure.Commands.ResourceManager.Cmdlets.Implementation.NewAzureResourceGroupCmdlet.OnProcessRecord()
+   at Microsoft.Azure.Commands.ResourceManager.Cmdlets.Implementation.ResourceManagerCmdletBase.ExecuteCmdlet()
+DEBUG: 5:29:50 PM - [ConfigManager] Got nothing from [EnableErrorRecordsPersistence], Module = [Az.Resources], Cmdlet = [New-AzResourceGroup]. Returning default value [False].
+>> TerminatingError(New-AzResourceGroup): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: 'resourceGroupName' does not match expected pattern '^[-\w\._\(\)]+$'."
+The resource group could not be created.
+'resourceGroupName' does not match expected pattern '^[-\w\._\(\)]+$'.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260830172950
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260830174545
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.5.0_x64__8wekyb3d8bbwe\pwsh.dll -noexit -command try { . "c:\Program Files\Microsoft VS Code\110a328ea5\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 3420
+PSVersion: 7.6.5
+PSEdition: Core
+GitCommitId: 7.6.5
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Resource group created successfully.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260830174548
+**********************
