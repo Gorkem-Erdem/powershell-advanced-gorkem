@@ -4,9 +4,12 @@ Describe "Create Resource Group Script" {
 
         $ScriptPath = Join-Path `
             $PSScriptRoot `
-            "..\LM1\create-resourcegroup.ps1"
+            "create-resourcegroup.ps1"
 
-        & $ScriptPath -ResourceGroupName $ResourceGroupName
+. $ScriptPath
+
+        New-TestResourceGroup `
+         -ResourceGroupName $ResourceGroupName
 
         $Result = Get-AzResourceGroup `
             -Name $ResourceGroupName `

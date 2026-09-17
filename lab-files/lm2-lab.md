@@ -13,7 +13,7 @@
 - Debug example `DEBUG: Location: centralus`
 - Difference: Verbose showed the progress of the script. Debug showed more specific values and paused the script so I could review them.
 
-## Task 3:
+# Task 3:
 
 - Test name: Creates the expected Azure resource group
 - Expected result: The resource group should be created in Azure.
