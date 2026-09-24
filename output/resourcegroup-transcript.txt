@@ -999,3 +999,1259 @@ Script execution finished.
 PowerShell transcript end
 End time: 20260917012353
 **********************
+**********************
+PowerShell transcript start
+Start time: 20260923234003
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+
+ResourceGroupName : Dev1
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/Dev1
+
+Resource group created successfully.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260923234011
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260923234730
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+
+ResourceGroupName : RG-1001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1001
+
+Resource group created successfully.
+Script execution finished.
+**********************
+PowerShell transcript end
+End time: 20260923234733
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260924000640
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-1001'".
+VERBOSE: Creating resource group RG-1001.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:06:48 AM - Created resource group 'RG-1001' in location 'centralus'
+
+ResourceGroupName : RG-1001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1001
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-1001.
+
+ResourceGroupName : RG-1001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:06:40 AM
+
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-1002'".
+VERBOSE: Creating resource group RG-1002.
+VERBOSE: 12:06:52 AM - Created resource group 'RG-1002' in location 'centralus'
+ResourceGroupName : RG-1002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1002
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-1002.
+
+ResourceGroupName : RG-1002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:06:48 AM
+
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-1003'".
+VERBOSE: Creating resource group RG-1003.
+VERBOSE: 12:06:55 AM - Created resource group 'RG-1003' in location 'centralus'
+ResourceGroupName : RG-1003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1003
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-1003.
+
+ResourceGroupName : RG-1003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:06:52 AM
+
+VERBOSE: Resource group processing completed.
+**********************
+PowerShell transcript end
+End time: 20260924000655
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260924001144
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'Verbose1'".
+VERBOSE: Creating resource group Verbose1.
+VERBOSE: 12:11:47 AM - Created resource group 'Verbose1' in location 'centralus'
+
+ResourceGroupName : Verbose1
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/Verbose1
+
+Resource group created successfully.
+VERBOSE: Finished processing Verbose1.
+
+ResourceGroupName : Verbose1
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:11:44 AM
+
+VERBOSE: Resource group processing completed.
+**********************
+PowerShell transcript end
+End time: 20260924001147
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260924001505
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\create-resourcegroup\create-resourcegroup\ResourceGroups.txt' because it does not exist.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\create-resourcegroup\create-resourcegroup\ResourceGroups.txt' because it does not exist.
+VERBOSE: Resource group processing completed.
+**********************
+PowerShell transcript end
+End time: 20260924001505
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260924001636
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+VERBOSE: Validation completed successfully for RG-2001.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2001'".
+VERBOSE: Creating resource group RG-2001.
+VERBOSE: 12:16:40 AM - Created resource group 'RG-2001' in location 'centralus'
+
+ResourceGroupName : RG-2001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2001
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2001.
+
+ResourceGroupName : RG-2001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:16:36 AM
+
+VERBOSE: Validation completed successfully for RG-2002.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2002'".
+VERBOSE: Creating resource group RG-2002.
+VERBOSE: 12:16:43 AM - Created resource group 'RG-2002' in location 'centralus'
+ResourceGroupName : RG-2002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2002
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2002.
+
+ResourceGroupName : RG-2002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:16:40 AM
+
+VERBOSE: Validation completed successfully for RG-2003.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2003'".
+VERBOSE: Creating resource group RG-2003.
+VERBOSE: 12:16:47 AM - Created resource group 'RG-2003' in location 'centralus'
+ResourceGroupName : RG-2003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2003
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2003.
+
+ResourceGroupName : RG-2003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:16:43 AM
+
+VERBOSE: Resource group processing completed.
+**********************
+PowerShell transcript end
+End time: 20260924001647
+**********************
+**********************
+PowerShell transcript start
+Start time: 20260924002321
+Username: PA-gorkem\student
+RunAs User: PA-gorkem\student
+Configuration Name: 
+Machine: PA-gorkem (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\WindowsApps\Microsoft.PowerShell_7.6.6.0_x64__8wekyb3d8bbwe\pwsh.dll -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2025.4.0' -BundledModulesPath 'c:\Users\student\.vscode\extensions\ms-vscode.powershell-2025.4.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2025.4.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Warning' -LogPath 'c:\Users\student\AppData\Roaming\Code\logs\20260923T233100\window1\exthost\ms-vscode.powershell' -SessionDetailsPath 'c:\Users\student\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-9032-266339.json' -FeatureFlags @() 
+Process ID: 2580
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\ResourceGroups.txt' because it does not exist.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\ResourceGroups.txt' because it does not exist.
+end: C:\powershell-advanced-gorkem\create-resourcegroup\create-resourcegroup.ps1:109:4
+Line |
+ 109 |     end {
+     |     ~~~
+     | The term 'end' is not recognized as a name of a cmdlet, function, script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+end: C:\powershell-advanced-gorkem\create-resourcegroup\create-resourcegroup.ps1:109:4
+Line |
+ 109 |     end {
+     |     ~~~
+     | The term 'end' is not recognized as a name of a cmdlet, function, script file, or executable program. Check the spelling of the name, or if a path was included,
+     | verify that the path is correct and try again.
+
+]633;D;1]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>. .\create-resourcegroup\create-resourcegroup.ps1
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Get-Content .\ResourceGroups.txt |
+    New-TestResourceGroup -Verbose
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\ResourceGroups.txt' because it does not exist.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\ResourceGroups.txt' because it does not exist.
+
+Processing Summary
+Total processed: 0
+Created: 0
+Skipped: 0
+Errors: 0
+VERBOSE: Resource group processing completed.
+Transcript stopped, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+]633;D;1]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Get-Content .\create-resourcegroup\ResourceGroups.txt |
+    New-TestResourceGroup -Verbose
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+VERBOSE: Validation completed successfully for RG-2001.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2001'".
+VERBOSE: Creating resource group RG-2001.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:25:16 AM - Created resource group 'RG-2001' in location 'centralus'
+
+ResourceGroupName : RG-2001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2001
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2001.
+
+ResourceGroupName : RG-2001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:25:11 AM
+
+VERBOSE: Validation completed successfully for RG-2002.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2002'".
+VERBOSE: Creating resource group RG-2002.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:25:21 AM - Created resource group 'RG-2002' in location 'centralus'
+ResourceGroupName : RG-2002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2002
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2002.
+
+ResourceGroupName : RG-2002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:25:16 AM
+
+VERBOSE: Validation completed successfully for RG-2003.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2003'".
+VERBOSE: Creating resource group RG-2003.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:25:24 AM - Created resource group 'RG-2003' in location 'centralus'
+ResourceGroupName : RG-2003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2003
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2003.
+
+ResourceGroupName : RG-2003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:25:21 AM
+
+
+Processing Summary
+Total processed: 3
+Created: 3
+Skipped: 0
+Errors: 0
+VERBOSE: Resource group processing completed.
+Transcript stopped, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           Add-AzAccount -> Connect-AzAccount                 5.5.2      Az.Accounts
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  7.0.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               7.0.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           gerr -> Get-Error
+Alias           Get-AzADServicePrincipalCredential -> Get-AzADSpC… 10.1.0     Az.Resources
+Alias           Get-AzDomain -> Get-AzTenant                       5.5.2      Az.Accounts
+Alias           Get-AzResourceProviderAction -> Get-AzProviderOpe… 10.1.0     Az.Resources
+Alias           Get-AzSubscriptionDeployment -> Get-AzDeployment   10.1.0     Az.Resources
+Alias           Get-AzSubscriptionDeploymentOperation -> Get-AzDe… 10.1.0     Az.Resources
+Alias           Get-AzSubscriptionDeploymentWhatIfResult -> Get-A… 10.1.0     Az.Resources
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            7.0.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                7.0.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           Invoke-AzRest -> Invoke-AzRestMethod               5.5.2      Az.Accounts
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           irm -> Invoke-RestMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           Login-AzAccount -> Connect-AzAccount               5.5.2      Az.Accounts
+Alias           Logout-AzAccount -> Disconnect-AzAccount           5.5.2      Az.Accounts
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           New-AzADServicePrincipalCredential -> New-AzADSpC… 10.1.0     Az.Resources
+Alias           New-AzSubscriptionDeployment -> New-AzDeployment   10.1.0     Az.Resources
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           Remove-AzAccount -> Disconnect-AzAccount           5.5.2      Az.Accounts
+Alias           Remove-AzADServicePrincipalCredential -> Remove-A… 10.1.0     Az.Resources
+Alias           Remove-AzSubscriptionDeployment -> Remove-AzDeplo… 10.1.0     Az.Resources
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           Save-AzProfile -> Save-AzContext                   5.5.2      Az.Accounts
+Alias           Save-AzSubscriptionDeploymentTemplate -> Save-AzD… 10.1.0     Az.Resources
+Alias           sbp -> Set-PSBreakpoint
+Alias           scb -> Set-Clipboard                               7.0.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           Select-AzSubscription -> Set-AzContext             5.5.2      Az.Accounts
+Alias           set -> Set-Variable
+Alias           Set-AzADApplication -> Update-AzADApplication      10.1.0     Az.Resources
+Alias           Set-AzADServicePrincipal -> Update-AzADServicePri… 10.1.0     Az.Resources
+Alias           Set-AzADUser -> Update-AzADUser                    10.1.0     Az.Resources
+Alias           Set-AzConfig -> Update-AzConfig                    5.5.2      Az.Accounts
+Alias           Set-AzPolicyAssignment -> Update-AzPolicyAssignme… 10.1.0     Az.Resources
+Alias           Set-AzPolicyDefinition -> Update-AzPolicyDefiniti… 10.1.0     Az.Resources
+Alias           Set-AzPolicyExemption -> Update-AzPolicyExemption  10.1.0     Az.Resources
+Alias           Set-AzPolicySetDefinition -> Update-AzPolicySetDe… 10.1.0     Az.Resources
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           Stop-AzSubscriptionDeployment -> Stop-AzDeployment 10.1.0     Az.Resources
+Alias           stz -> Set-TimeZone                                7.0.0.0    Microsoft.PowerShell.Management
+Alias           sv -> Set-Variable
+Alias           tee -> Tee-Object
+Alias           Test-AzSubscriptionDeployment -> Test-AzDeployment 10.1.0     Az.Resources
+Alias           type -> Get-Content
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+PS>CommandInvocation(Get-Command): "Get-Command"
+>> ParameterBinding(Get-Command): name="ListImported"; value="True"
+>> ParameterBinding(Get-Command): name="CommandType"; value="Alias"
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Alias           % -> ForEach-Object
+Alias           ? -> Where-Object
+Alias           ac -> Add-Content
+Alias           Add-AzAccount -> Connect-AzAccount                 5.5.2      Az.Accounts
+Alias           cat -> Get-Content
+Alias           cd -> Set-Location
+Alias           chdir -> Set-Location
+Alias           clc -> Clear-Content
+Alias           clear -> Clear-Host
+Alias           clhy -> Clear-History
+Alias           cli -> Clear-Item
+Alias           clp -> Clear-ItemProperty
+Alias           cls -> Clear-Host
+Alias           clv -> Clear-Variable
+Alias           cnsn -> Connect-PSSession
+Alias           compare -> Compare-Object
+Alias           copy -> Copy-Item
+Alias           cp -> Copy-Item
+Alias           cpi -> Copy-Item
+Alias           cpp -> Copy-ItemProperty
+Alias           cvpa -> Convert-Path
+Alias           dbp -> Disable-PSBreakpoint
+Alias           del -> Remove-Item
+Alias           diff -> Compare-Object
+Alias           dir -> Get-ChildItem
+Alias           dnsn -> Disconnect-PSSession
+Alias           ebp -> Enable-PSBreakpoint
+Alias           echo -> Write-Output
+Alias           epal -> Export-Alias
+Alias           epcsv -> Export-Csv
+Alias           erase -> Remove-Item
+Alias           etsn -> Enter-PSSession
+Alias           exsn -> Exit-PSSession
+Alias           fc -> Format-Custom
+Alias           fhx -> Format-Hex                                  7.0.0.0    Microsoft.PowerShell.Utility
+Alias           fl -> Format-List
+Alias           foreach -> ForEach-Object
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           gal -> Get-Alias
+Alias           gbp -> Get-PSBreakpoint
+Alias           gc -> Get-Content
+Alias           gcb -> Get-Clipboard                               7.0.0.0    Microsoft.PowerShell.Management
+Alias           gci -> Get-ChildItem
+Alias           gcm -> Get-Command
+Alias           gcs -> Get-PSCallStack
+Alias           gdr -> Get-PSDrive
+Alias           gerr -> Get-Error
+Alias           Get-AzADServicePrincipalCredential -> Get-AzADSpC… 10.1.0     Az.Resources
+Alias           Get-AzDomain -> Get-AzTenant                       5.5.2      Az.Accounts
+Alias           Get-AzResourceProviderAction -> Get-AzProviderOpe… 10.1.0     Az.Resources
+Alias           Get-AzSubscriptionDeployment -> Get-AzDeployment   10.1.0     Az.Resources
+Alias           Get-AzSubscriptionDeploymentOperation -> Get-AzDe… 10.1.0     Az.Resources
+Alias           Get-AzSubscriptionDeploymentWhatIfResult -> Get-A… 10.1.0     Az.Resources
+Alias           ghy -> Get-History
+Alias           gi -> Get-Item
+Alias           gin -> Get-ComputerInfo                            7.0.0.0    Microsoft.PowerShell.Management
+Alias           gjb -> Get-Job
+Alias           gl -> Get-Location
+Alias           gm -> Get-Member
+Alias           gmo -> Get-Module
+Alias           gp -> Get-ItemProperty
+Alias           gps -> Get-Process
+Alias           gpv -> Get-ItemPropertyValue
+Alias           group -> Group-Object
+Alias           gsn -> Get-PSSession
+Alias           gsv -> Get-Service
+Alias           gtz -> Get-TimeZone                                7.0.0.0    Microsoft.PowerShell.Management
+Alias           gu -> Get-Unique
+Alias           gv -> Get-Variable
+Alias           h -> Get-History
+Alias           history -> Get-History
+Alias           icm -> Invoke-Command
+Alias           iex -> Invoke-Expression
+Alias           ihy -> Invoke-History
+Alias           ii -> Invoke-Item
+Alias           Invoke-AzRest -> Invoke-AzRestMethod               5.5.2      Az.Accounts
+Alias           ipal -> Import-Alias
+Alias           ipcsv -> Import-Csv
+Alias           ipmo -> Import-Module
+Alias           irm -> Invoke-RestMethod
+Alias           iwr -> Invoke-WebRequest
+Alias           kill -> Stop-Process
+Alias           Login-AzAccount -> Connect-AzAccount               5.5.2      Az.Accounts
+Alias           Logout-AzAccount -> Disconnect-AzAccount           5.5.2      Az.Accounts
+Alias           ls -> Get-ChildItem
+Alias           man -> help
+Alias           md -> mkdir
+Alias           measure -> Measure-Object
+Alias           mi -> Move-Item
+Alias           mount -> New-PSDrive
+Alias           move -> Move-Item
+Alias           mp -> Move-ItemProperty
+Alias           mv -> Move-Item
+Alias           nal -> New-Alias
+Alias           ndr -> New-PSDrive
+Alias           New-AzADServicePrincipalCredential -> New-AzADSpC… 10.1.0     Az.Resources
+Alias           New-AzSubscriptionDeployment -> New-AzDeployment   10.1.0     Az.Resources
+Alias           ni -> New-Item
+Alias           nmo -> New-Module
+Alias           nsn -> New-PSSession
+Alias           nv -> New-Variable
+Alias           ogv -> Out-GridView
+Alias           oh -> Out-Host
+Alias           popd -> Pop-Location
+Alias           ps -> Get-Process
+Alias           psedit -> Open-EditorFile                          0.2.0      PowerShellEditorServices.Commands
+Alias           pushd -> Push-Location
+Alias           pwd -> Get-Location
+Alias           r -> Invoke-History
+Alias           rbp -> Remove-PSBreakpoint
+Alias           rcjb -> Receive-Job
+Alias           rcsn -> Receive-PSSession
+Alias           rd -> Remove-Item
+Alias           rdr -> Remove-PSDrive
+Alias           Remove-AzAccount -> Disconnect-AzAccount           5.5.2      Az.Accounts
+Alias           Remove-AzADServicePrincipalCredential -> Remove-A… 10.1.0     Az.Resources
+Alias           Remove-AzSubscriptionDeployment -> Remove-AzDeplo… 10.1.0     Az.Resources
+Alias           ren -> Rename-Item
+Alias           ri -> Remove-Item
+Alias           rjb -> Remove-Job
+Alias           rm -> Remove-Item
+Alias           rmdir -> Remove-Item
+Alias           rmo -> Remove-Module
+Alias           rni -> Rename-Item
+Alias           rnp -> Rename-ItemProperty
+Alias           rp -> Remove-ItemProperty
+Alias           rsn -> Remove-PSSession
+Alias           rv -> Remove-Variable
+Alias           rvpa -> Resolve-Path
+Alias           sajb -> Start-Job
+Alias           sal -> Set-Alias
+Alias           saps -> Start-Process
+Alias           sasv -> Start-Service
+Alias           Save-AzProfile -> Save-AzContext                   5.5.2      Az.Accounts
+Alias           Save-AzSubscriptionDeploymentTemplate -> Save-AzD… 10.1.0     Az.Resources
+Alias           sbp -> Set-PSBreakpoint
+Alias           scb -> Set-Clipboard                               7.0.0.0    Microsoft.PowerShell.Management
+Alias           select -> Select-Object
+Alias           Select-AzSubscription -> Set-AzContext             5.5.2      Az.Accounts
+Alias           set -> Set-Variable
+Alias           Set-AzADApplication -> Update-AzADApplication      10.1.0     Az.Resources
+Alias           Set-AzADServicePrincipal -> Update-AzADServicePri… 10.1.0     Az.Resources
+Alias           Set-AzADUser -> Update-AzADUser                    10.1.0     Az.Resources
+Alias           Set-AzConfig -> Update-AzConfig                    5.5.2      Az.Accounts
+Alias           Set-AzPolicyAssignment -> Update-AzPolicyAssignme… 10.1.0     Az.Resources
+Alias           Set-AzPolicyDefinition -> Update-AzPolicyDefiniti… 10.1.0     Az.Resources
+Alias           Set-AzPolicyExemption -> Update-AzPolicyExemption  10.1.0     Az.Resources
+Alias           Set-AzPolicySetDefinition -> Update-AzPolicySetDe… 10.1.0     Az.Resources
+Alias           shcm -> Show-Command
+Alias           si -> Set-Item
+Alias           sl -> Set-Location
+Alias           sleep -> Start-Sleep
+Alias           sls -> Select-String
+Alias           sort -> Sort-Object
+Alias           sp -> Set-ItemProperty
+Alias           spjb -> Stop-Job
+Alias           spps -> Stop-Process
+Alias           spsv -> Stop-Service
+Alias           start -> Start-Process
+Alias           Stop-AzSubscriptionDeployment -> Stop-AzDeployment 10.1.0     Az.Resources
+Alias           stz -> Set-TimeZone                                7.0.0.0    Microsoft.PowerShell.Management
+Alias           sv -> Set-Variable
+Alias           tee -> Tee-Object
+Alias           Test-AzSubscriptionDeployment -> Test-AzDeployment 10.1.0     Az.Resources
+Alias           type -> Get-Content
+Alias           where -> Where-Object
+Alias           wjb -> Wait-Job
+Alias           write -> Write-Output
+
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>New-TestResourceGroup -ProjectID "1001"
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+
+ResourceGroupName : RG-1001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1001
+
+Resource group created successfully.
+
+ResourceGroupName : RG-1001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:30:52 AM
+
+
+Processing Summary
+Total processed: 1
+Created: 1
+Skipped: 0
+Errors: 0
+Transcript stopped, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>"1001", "1002", "1003" | New-TestResourceGroup -Verbose
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+VERBOSE: Validation completed successfully for RG-1001.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-1001'".
+VERBOSE: Creating resource group RG-1001.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:31:33 AM - Created resource group 'RG-1001' in location 'centralus'
+
+ResourceGroupName : RG-1001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1001
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-1001.
+
+ResourceGroupName : RG-1001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:31:29 AM
+
+VERBOSE: Validation completed successfully for RG-1002.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-1002'".
+VERBOSE: Creating resource group RG-1002.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:31:38 AM - Created resource group 'RG-1002' in location 'centralus'
+ResourceGroupName : RG-1002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1002
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-1002.
+
+ResourceGroupName : RG-1002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:31:33 AM
+
+VERBOSE: Validation completed successfully for RG-1003.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-1003'".
+VERBOSE: Creating resource group RG-1003.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:32:11 AM - Created resource group 'RG-1003' in location 'centralus'
+ResourceGroupName : RG-1003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-1003
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-1003.
+
+ResourceGroupName : RG-1003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:31:38 AM
+
+
+Processing Summary
+Total processed: 3
+Created: 3
+Skipped: 0
+Errors: 0
+VERBOSE: Resource group processing completed.
+Transcript stopped, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Get-Content .\ResourceGroups.txt | New-TestResourceGroup -Verbose
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\ResourceGroups.txt' because it does not exist.
+Get-Content: Cannot find path 'C:\powershell-advanced-gorkem\ResourceGroups.txt' because it does not exist.
+
+Processing Summary
+Total processed: 0
+Created: 0
+Skipped: 0
+Errors: 0
+VERBOSE: Resource group processing completed.
+Transcript stopped, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+]633;D;1]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Get-Content .\create-resourcegroup\ResourceGroups.txt | New-TestResourceGroup -Verbose
+Transcript started, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+VERBOSE: Starting the resource group creation process.
+VERBOSE: Validation completed successfully for RG-2001.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2001'".
+VERBOSE: Creating resource group RG-2001.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:33:03 AM - Created resource group 'RG-2001' in location 'centralus'
+
+ResourceGroupName : RG-2001
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2001
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2001.
+
+ResourceGroupName : RG-2001
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:32:58 AM
+
+VERBOSE: Validation completed successfully for RG-2002.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2002'".
+VERBOSE: Creating resource group RG-2002.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:33:06 AM - Created resource group 'RG-2002' in location 'centralus'
+ResourceGroupName : RG-2002
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2002
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2002.
+
+ResourceGroupName : RG-2002
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:33:03 AM
+
+VERBOSE: Validation completed successfully for RG-2003.
+VERBOSE: Performing the operation "Create" on target "Resource Group 'RG-2003'".
+VERBOSE: Creating resource group RG-2003.
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+VERBOSE: 12:33:09 AM - Created resource group 'RG-2003' in location 'centralus'
+ResourceGroupName : RG-2003
+Location          : centralus
+ProvisioningState : Succeeded
+Tags              : 
+                    Name         Value
+                    ===========  =====
+                    Department   IT
+                    Environment  Test
+
+ResourceId        : /subscriptions/ec99d054-6901-425a-9fa2-cf99aa50d837/resourceGroups/RG-2003
+
+Resource group created successfully.
+VERBOSE: Finished processing RG-2003.
+
+ResourceGroupName : RG-2003
+Location          : centralus
+Status            : Created
+Tags              : {[Environment, Test], [Department, IT]}
+Timestamp         : 9/24/2026 12:33:06 AM
+
+
+Processing Summary
+Total processed: 3
+Created: 3
+Skipped: 0
+Errors: 0
+VERBOSE: Resource group processing completed.
+Transcript stopped, output file is C:\powershell-advanced-gorkem\output\resourcegroup-transcript.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Invoke-Pester `
+    .\create-resourcegroup\create-resourcegroup.tests.ps1 `
+    -Output Detailed
+Pester v6.1.0
+
+Running tests from 1 files.
+
+Running tests from 'C:\powershell-advanced-gorkem\create-resourcegroup\create-resourcegroup.tests.ps1'
+Describing Create Resource Group Script
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+Resource group created successfully.
+
+Processing Summary
+Total processed: 1
+Created: 1
+Skipped: 0
+Errors: 0
+  [+] Creates the expected Azure resource group
+ 7.33s
+Tests completed in 8.95s
+Tests Passed: 1, 
+Failed: 0, 
+Skipped: 0, 
+Inconclusive: 0, 
+NotRun: 0
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Invoke-Pester `
+    .\create-resourcegroup\create-resourcegroup.tests.ps1 `
+    -Output Detailed
+Pester v6.1.0
+
+Running tests from 1 files.
+
+Running tests from 'C:\powershell-advanced-gorkem\create-resourcegroup\create-resourcegroup.tests.ps1'
+Describing Create Resource Group Script
+Confirm
+Provided resource group already exists. Are you sure you want to update it?
+&Yes  &No  &Suspend
+Y
+Resource group created successfully.
+
+Processing Summary
+Total processed: 1
+Created: 1
+Skipped: 0
+Errors: 0
+  [+] Creates the expected Azure resource group
+ 5.06s
+Resource group created successfully.
+
+Processing Summary
+Total processed: 1
+Created: 1
+Skipped: 0
+Errors: 0
+  [+] Creates a resource group using a Project ID
+ 5.03s
+Tests completed in 10.22s
+Tests Passed: 2, 
+Failed: 0, 
+Skipped: 0, 
+Inconclusive: 0, 
+NotRun: 0
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git status
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git status
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git add README.md `
+    create-resourcegroup/README.md `
+    create-resourcegroup/create-resourcegroup.ps1 `
+    create-resourcegroup/create-resourcegroup.tests.ps1 `
+    create-resourcegroup/ResourceGroups.txt `
+    lab-files/lm4-lab.md `
+    output/resourcegroup-transcript.txt
+
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>git status
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   output/resourcegroup-transcript.txt
+]633;D;0]633;A]633;P;Cwd=C:\x5cpowershell-advanced-gorkemPS C:\powershell-advanced-gorkem> ]633;B
+PS>$global:__psEditorServices_userInput = $args[0]
+PS>$global:__psEditorServices_userInput = ""
+PS>Stop-Transcript -ErrorAction SilentlyContinue
+git add output/resourcegroup-transcript.txt
+git status
+**********************
+PowerShell transcript end
+End time: 20260924004408
+**********************
