@@ -13,6 +13,7 @@ New-TestResourceGroup is an advanced PowerShell function that creates Azure reso
 - Provides verbose and debug messages
 - Returns PowerShell objects
 - Displays a processing summary
+- Writes timestamped activity logs to the module Logs folder
 
 ## Examples
 
@@ -28,3 +29,7 @@ Process multiple Project IDs:
 
 Process IDs from a file:
 Get-Content .\ResourceGroups.txt | New-TestResourceGroup -Verbose
+
+## Logging
+
+Each run creates a timestamped log file in the `NWTC.ResourceGroups\Logs` folder. The log records when processing starts, which resource groups are created, any errors, and when processing finishes.

@@ -1,25 +1,26 @@
 function Write-ModuleLog {
     <#
-    .SYNOPSIS
-    Writes messages to a module log file.
+.SYNOPSIS
+Writes timestamped messages to a module log file.
 
-    .DESCRIPTION
-    Adds a timestamp, message level, and message to a specified text file.
+.DESCRIPTION
+This private helper function records INFO, WARN, and ERROR messages for the NWTC.ResourceGroups module.
 
-    .PARAMETER Message
-    Specifies the message to write.
+.PARAMETER Message
+Specifies the message written to the log.
 
-    .PARAMETER Level
-    Specifies INFO, WARN, or ERROR.
+.PARAMETER Level
+Specifies the message level: INFO, WARN, or ERROR.
 
-    .PARAMETER LogFile
-    Specifies the full path of the log file.
+.PARAMETER LogFile
+Specifies the full path of the log file.
 
-    .EXAMPLE
-    Write-ModuleLog -Message "Starting resource group creation." `
-        -Level INFO `
-        -LogFile $LogFilePath
-    #>
+.EXAMPLE
+Write-ModuleLog `
+    -Message "Starting resource group creation." `
+    -Level INFO `
+    -LogFile $LogFilePath
+#>
 
     [CmdletBinding()]
     param (

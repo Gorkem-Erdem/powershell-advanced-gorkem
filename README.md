@@ -16,4 +16,18 @@ In LM4, I improved the New-TestResourceGroup function for larger automation proj
 - Added processing counters and a final summary
 - Updated the function documentation and examples
 
-The completed function is located in the create-resourcegroup folder.
+## Learning Module 5: PowerShell Modules
+
+In LM5, I converted the New-TestResourceGroup function into a reusable PowerShell module.
+
+### Improvements
+
+- Created the NWTC.ResourceGroups module
+- Added a module manifest with version 1.0.0
+- Separated public and private functions
+- Added a private logging function
+- Exported only New-TestResourceGroup
+- Tested names, Project IDs, pipeline input, and multiple values
+- Added module documentation and usage examples
+
+The completed module is located in the `NWTC.ResourceGroups` folder.

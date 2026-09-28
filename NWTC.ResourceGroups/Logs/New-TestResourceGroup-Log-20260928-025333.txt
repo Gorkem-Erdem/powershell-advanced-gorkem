@@ -1,0 +1,5 @@
+2026-09-28 02:53:33 [INFO] Starting the resource group creation process.
+2026-09-28 02:53:36 [INFO] Created resource group 'RG-5003' in centralus.
+2026-09-28 02:53:36 [INFO] Finished processing the resource group.
+2026-09-28 02:53:40 [INFO] Created resource group 'RG-5004' in centralus.
+2026-09-28 02:53:40 [INFO] Finished processing the resource group.

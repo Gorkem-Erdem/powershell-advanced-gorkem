@@ -17,3 +17,7 @@ Added Export-ModuleMember to export only the functions stored in the Public fold
 # Task 5: Private Helper Function
 
 Created the private Write-ModuleLog function and updated the module to load private functions without exporting them. I replaced transcript logging with timestamped log messages and verified that the helper created a log file successfully.
+
+# Task 6: Module Testing
+
+I tested the module using ResourceGroupName, ProjectID, pipeline input, and multiple values. The module created the expected Azure resource groups and saved timestamped messages in the Logs folder.

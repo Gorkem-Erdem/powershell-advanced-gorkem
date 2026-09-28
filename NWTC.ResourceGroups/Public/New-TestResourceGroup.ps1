@@ -2,28 +2,28 @@ function New-TestResourceGroup {
 
 <#
 .SYNOPSIS
-Creates one or more Azure resource groups.
+Creates a new Azure resource group.
 
 .DESCRIPTION
-Creates Azure resource groups in the Central US region. The function supports custom resource group names, Project IDs, pipeline input, tags, verbose feedback, WhatIf, and Confirm.
+Creates an Azure resource group in Central US using either a custom name or a numeric Project ID. The function supports pipeline input, tags, WhatIf, Confirm, and timestamped logging.
 
 .PARAMETER ResourceGroupName
 Specifies a custom resource group name.
 
 .PARAMETER ProjectID
-Specifies a numeric project ID. The function automatically creates a name such as RG-1001.
+Specifies a numeric Project ID. The function creates a name such as RG-1001.
 
 .PARAMETER Tags
-Specifies tags to apply to the resource group.
+Specifies the tags assigned to the resource group.
 
 .EXAMPLE
 New-TestResourceGroup -ResourceGroupName "Dev1"
 
 .EXAMPLE
-New-TestResourceGroup -ProjectID "1001" -Verbose
+New-TestResourceGroup -ProjectID "1001"
 
 .EXAMPLE
-"1001", "1002", "1003" | New-TestResourceGroup
+"1001", "1002" | New-TestResourceGroup
 #>
 
 #Allows the script to run verbose and debug
