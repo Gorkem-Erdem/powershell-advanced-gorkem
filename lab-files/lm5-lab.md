@@ -1,3 +1,7 @@
 # Task 1: Module Structure
 
 Created the NWTC.ResourceGroups module folder with Public, Private, Tests, Logs, and Docs folders. I also copied the existing New-TestResourceGroup function into the Public folder.
+
+# Task 2: Script Module
+
+Updated NWTC.ResourceGroups.psm1 to find and load all PowerShell files from the Public folder. I imported the module successfully using Import-Module.
