@@ -5,3 +5,7 @@ Created the NWTC.ResourceGroups module folder with Public, Private, Tests, Logs,
 # Task 2: Script Module
 
 Updated NWTC.ResourceGroups.psm1 to find and load all PowerShell files from the Public folder. I imported the module successfully using Import-Module.
+
+# Task 3: Module Manifest
+
+Created NWTC.ResourceGroups.psd1 with version 1.0.0, author information, and a description of the module.
