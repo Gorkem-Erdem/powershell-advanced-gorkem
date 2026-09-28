@@ -13,3 +13,7 @@ Created NWTC.ResourceGroups.psd1 with version 1.0.0, author information, and a d
 # Task 4: Export Module Members
 
 Added Export-ModuleMember to export only the functions stored in the Public folder. I reimported the module and verified that New-TestResourceGroup appeared with Get-Command.
+
+# Task 5: Private Helper Function
+
+Created the private Write-ModuleLog function and updated the module to load private functions without exporting them. I replaced transcript logging with timestamped log messages and verified that the helper created a log file successfully.

@@ -58,10 +58,16 @@ begin {
     $CreatedCount = 0
     $SkippedCount = 0
     $ErrorCount = 0
-    $ProjectRoot = Split-Path -Parent $PSScriptRoot
-    $TranscriptPath = Join-Path $ProjectRoot "output\resourcegroup-transcript.txt"
-    Start-Transcript -Path $TranscriptPath -Append
+    $ModuleRoot = Split-Path -Parent $PSScriptRoot
 
+$LogFilePath = Join-Path `
+    $ModuleRoot `
+    "Logs\New-TestResourceGroup-Log-$(Get-Date -Format 'yyyyMMdd-HHmmss').txt"
+
+Write-ModuleLog `
+    -Message "Starting the resource group creation process." `
+    -Level INFO `
+    -LogFile $LogFilePath
     Write-Verbose "Starting the resource group creation process."
 }
 
@@ -95,7 +101,11 @@ process {
                 -Tags $Tags `
                 -ErrorAction Stop
 
-            $result.Status = "Created"
+            Write-ModuleLog `
+    -Message "Created resource group '$ResourceGroupName' in centralus." `
+    -Level INFO `
+    -LogFile $LogFilePath
+
             $CreatedCount++
             Write-Host "Resource group created successfully."
         }
@@ -104,15 +114,26 @@ process {
         Write-Verbose "Skipped $ResourceGroupName."
          }
     }
-    catch {
-        $ErrorCount++
-        Write-Host "The resource group could not be created."
-        Write-Host $_.Exception.Message
-        $result.Status = "Error"
-    }
-    finally {
-        Write-Verbose "Finished processing $ResourceGroupName."
-    }
+   catch {
+    $ErrorCount++
+
+    Write-ModuleLog `
+        -Message $_.Exception.Message `
+        -Level ERROR `
+        -LogFile $LogFilePath
+
+    Write-Host "The resource group could not be created."
+    Write-Host $_.Exception.Message
+    $result.Status = "Error"
+}
+   finally {
+    Write-ModuleLog `
+        -Message "Finished processing the resource group." `
+        -Level INFO `
+        -LogFile $LogFilePath
+
+    Write-Host "Script execution finished."
+}
 
     $result
 }
@@ -125,6 +146,6 @@ end {
     Write-Host "Errors: $ErrorCount"
 
     Write-Verbose "Resource group processing completed."
-    Stop-Transcript
+    
 }
 }
