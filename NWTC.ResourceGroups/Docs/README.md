@@ -2,7 +2,7 @@
 
 ## Purpose
 
-NWTC.ResourceGroups is a PowerShell module used to create Azure resource groups in the Central US region.
+NWTC.ResourceGroups is a PowerShell module used to create and review Azure resource groups.
 
 ## Features
 
@@ -14,6 +14,7 @@ NWTC.ResourceGroups is a PowerShell module used to create Azure resource groups 
 - Returns PowerShell objects
 - Creates timestamped log files
 - Keeps helper functions private
+- Displays resource group names, locations, and tags
 
 ## Installation
 
@@ -48,7 +49,17 @@ Preview a change:
 ```powershell
 New-TestResourceGroup -ResourceGroupName "Dev1" -WhatIf
 ```
+View a summary of existing resource groups:
+
+```powershell
+Get-ResourceGroupSummary
+```
+
+## Documentation
+
+- [Changelog](CHANGELOG.md)
+- [Release Notes](RELEASENOTES.md)
 
 ## Version
 
-Current version: **1.0.0**
+Current version: **1.1.0**

@@ -33,3 +33,12 @@ Get-Content .\ResourceGroups.txt | New-TestResourceGroup -Verbose
 ## Logging
 
 Each run creates a timestamped log file in the `NWTC.ResourceGroups\Logs` folder. The log records when processing starts, which resource groups are created, any errors, and when processing finishes.
+
+## Get-ResourceGroupSummary
+
+`Get-ResourceGroupSummary` retrieves the existing Azure resource groups and displays their names, locations, and tags.
+
+### Example
+
+```powershell
+Get-ResourceGroupSummary

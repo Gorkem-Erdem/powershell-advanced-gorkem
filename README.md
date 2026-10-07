@@ -31,3 +31,16 @@ In LM5, I converted the New-TestResourceGroup function into a reusable PowerShel
 - Added module documentation and usage examples
 
 The completed module is located in the `NWTC.ResourceGroups` folder.
+
+## Learning Module 6: Module Versioning and Releases
+
+In LM6, I updated the module and prepared version 1.1.0 for release.
+
+### Improvements
+
+- Added the Get-ResourceGroupSummary function
+- Updated the module version from 1.0.0 to 1.1.0
+- Added a changelog and release notes
+- Tested the updated module and exported commands
+- Updated the project documentation
+- Prepared the module for release packaging

@@ -23,3 +23,11 @@ I created a changelog to track the module's version history. It documents the in
 # Task 5 - Release Notes
 
 I created release notes for version 1.1.0. They explain the new feature, bug fixes, upgrade steps, and known issues so users know what changed before updating the module.
+
+# Task 6 - Upgrade Testing
+
+I imported the updated module and confirmed that version 1.1.0 was loaded. Get-Command displayed both New-TestResourceGroup and Get-ResourceGroupSummary. The new summary function also successfully returned resource group names, locations, and tags.
+
+# Task 7 - Publish and Distribute
+
+I updated the function, repository, and module README files. I also created the Releases folder and packaged version 1.1.0 as NWTC.ResourceGroups1.1.0.zip.
