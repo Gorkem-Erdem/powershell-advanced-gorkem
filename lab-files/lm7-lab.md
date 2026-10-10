@@ -21,3 +21,7 @@ The GorkemBaseline configuration applied successfully. DSC checked the Telnet Cl
 ## Task 5: Validate the Configuration
 
 Test-DscConfiguration returned True, confirming that the computer matches the desired state. Get-DscConfiguration showed that GorkemBaseline is active and the Telnet-Client feature is set to Absent.
+
+## Task 6: Expand the Configuration
+
+I added a File resource named BaselineFolder to create the C:\GorkemBaseline directory. After recompiling and applying the configuration, DSC kept Telnet Client absent and successfully created the new folder.
