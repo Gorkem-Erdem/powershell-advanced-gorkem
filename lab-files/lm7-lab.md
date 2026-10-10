@@ -13,3 +13,7 @@
 - File location: C:\powershell-advanced-gorkem\DSC\GorkemBaseline\localhost.mof
 - File purpose: The MOF file contains the compiled DSC instructions that the Local Configuration Manager uses.
 - Information observed: The file targets localhost and includes a WindowsFeature resource for Telnet-Client. The desired state is Absent, which means Telnet Client should not be installed.
+
+## Task 4: Apply the Configuration
+
+The GorkemBaseline configuration applied successfully. DSC checked the Telnet Client feature and found that it was already absent, so no changes were needed.
