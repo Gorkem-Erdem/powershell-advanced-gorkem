@@ -8,7 +8,7 @@
   - Creates C:\Automation\Config.txt with the text "NWTC Standard Configuration."
   - It depends on the AutomationFolder resource, so the folder is created first.
 
-  ## Task 3: Generate and Review the MOF File
+## Task 3: Generate and Review the MOF File
 
 - File location: C:\powershell-advanced-gorkem\DSC\GorkemBaseline\localhost.mof
 - File purpose: The MOF file contains the compiled DSC instructions that the Local Configuration Manager uses.
@@ -17,3 +17,7 @@
 ## Task 4: Apply the Configuration
 
 The GorkemBaseline configuration applied successfully. DSC checked the Telnet Client feature and found that it was already absent, so no changes were needed.
+
+## Task 5: Validate the Configuration
+
+Test-DscConfiguration returned True, confirming that the computer matches the desired state. Get-DscConfiguration showed that GorkemBaseline is active and the Telnet-Client feature is set to Absent.
